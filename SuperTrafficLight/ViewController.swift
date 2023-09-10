@@ -52,6 +52,7 @@ class ViewController: UIViewController {
         }
         
     }
+    
     private func setColor(red: CGFloat, yellow: CGFloat, green: CGFloat) {
         redColor.alpha = red
         yellowColor.alpha = yellow
