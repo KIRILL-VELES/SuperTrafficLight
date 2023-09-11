@@ -51,6 +51,15 @@ class ViewController: UIViewController {
             setColor(red: alphaOn, yellow: alphaOff, green: alphaOff)
         }
         
+//        switch (redColor.alpha, yellowColor.alpha, greenColor.alpha) {
+//        case (alphaOn, _, _):
+//            setColor(red: alphaOff, yellow: alphaOn, green: alphaOff)
+//        case (_, alphaOn, _):
+//            setColor(red: alphaOff, yellow: alphaOff, green: alphaOn)
+//        default:
+//            setColor(red: alphaOn, yellow: alphaOff, green: alphaOff)
+//        }
+        
     }
     
     private func setColor(red: CGFloat, yellow: CGFloat, green: CGFloat) {
